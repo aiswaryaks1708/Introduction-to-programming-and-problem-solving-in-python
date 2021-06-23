@@ -1,0 +1,135 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+name=input('who are you')
+
+
+# In[2]:
+
+
+print('Welcome', name) 
+
+
+# In[3]:
+
+
+Age=input('Age')
+
+
+# In[11]:
+
+
+print('Age is', Age+'1')
+
+
+# In[12]:
+
+
+print('Age is', int(Age)+1)
+
+
+# In[13]:
+
+
+print('Age is', float(Age)+1)
+
+
+# In[14]:
+
+
+print('Hello')
+#print('hai')
+
+
+# In[16]:
+
+
+x=50
+if(x<10):
+    print("small")
+    print("smaller")
+if(x>20):
+    print('great')
+print('finished')
+
+
+# In[19]:
+
+
+a=int(input('Enter the first number'))
+b=int(input('Enter the second number'))
+if(a>b):
+    print("Greater Number:",a)
+else:
+    print('Greater Number:',b)
+
+
+# In[20]:
+
+
+x=5
+if x==5:
+    print('Equal to 5')
+if x>4:
+    print('Greater than 4')
+if x>=5:
+    print('Greater than or equal to 5')
+if x<6:
+    print('less than 6')
+if x<=5:
+    print('less than or equal to 5')
+if x!=6:
+    print('Not equal to 6')
+
+
+# In[21]:
+
+
+x=5
+if x==5:
+    print('Equal to 5')
+if x>4:
+    print('Greater than 4')
+    print('Greater than 4 and above')
+if x>=5:
+    print('Greater than or equal to 5')
+if x<6:
+    print('less than 6')
+if x<=5:
+    print('less than or equal to 5')
+if x!=6:
+    print('Not equal to 6')
+
+
+# In[22]:
+
+
+x=5
+if x==5:
+    print('Equal to 5')
+print('completed')
+for i in range(5):
+    print(i)
+    if i>2:
+        print('Bigger than2')
+    print('Done with i',i)
+print("All Done")
+
+
+# In[24]:
+
+
+#Nested Condition
+x=42
+if x>1:
+    print('More than one')
+    if x<100:
+        print('Less than 100')
+print('All Done')
+    
+
+
+# In[ ]:
